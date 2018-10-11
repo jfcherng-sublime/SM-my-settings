@@ -1,0 +1,265 @@
+{
+    "url": "https://github.com/jwortmann/brackets-color-scheme",
+    "name": "Brackets Light",
+    "author": "Janos Wortmann",
+    "variables": {
+        "textcolor": "#535353",
+        "blue": "#446FBD",
+        "green": "#6D8600",
+        "grey": "#949494",
+        "orange": "#E88501",
+        "red": "#DC322F",
+        "red2": "#D11E63",
+        "violet": "#8757AD"
+    },
+    "globals": {
+        "background": "#F8F8F8",
+        "foreground": "var(textcolor)",
+        "caret": "#000000",
+        "line_highlight": "#EBEFEF",
+        "misspelling": "var(red)",
+        "fold_marker": "#FFFFFF",
+        "accent": "var(blue)",
+        "gutter_foreground": "var(grey)",
+        "selection": "#ABDFFA",
+        "inactive_selection": "#D5DEE3",
+        "selection_corner_style": "round",
+        "selection_corner_radius": "2",
+        "find_highlight": "#F7C44E",
+        "find_highlight_foreground": "#121212",
+        "brackets_options": "underline",
+        "bracket_contents_options": "",
+        "tags_options": "stippled_underline"
+    },
+    "rules": [
+        {
+            "name": "Comments",
+            "scope": "comment",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "Numbers",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Language-specific constants",
+            "scope": "constant.language, constant.character",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Other constants",
+            "scope": "constant.other",
+            "foreground": "var(orange)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Strings",
+            "scope": "string",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Keywords",
+            "scope": "keyword",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "Data structures, types and other constructs",
+            "scope": "entity.name",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "Types and definition/declaration keywords",
+            "scope": "storage.type",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Storage modifiers",
+            "scope": "storage.modifier",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Library and user constructs",
+            "scope": "support",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Language-specific variables",
+            "scope": "variable.language",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Function or method calls",
+            "scope": "variable.function",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "Function or method arguments",
+            "scope": "variable.parameter",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Separators",
+            "scope": "punctuation.separator",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "Illegal statements",
+            "scope": "invalid.illegal",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "HTML/XML tags",
+            "scope": "entity.name.tag, punctuation.definition.tag",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "HTML/XML tag attribute identifiers",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "CSS selectors class/id",
+            "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "CSS properties",
+            "scope": "support.type.property-name.css",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "CSS property values",
+            "scope": "support.constant.property-value.css, constant.other.color.rgb-value.css",
+            "foreground": "var(orange)",
+            "font_style": ""
+        },
+        {
+            "name": "CSS units of numeric literals",
+            "scope": "constant.numeric.css keyword.other.unit.css",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "CSS variable name declarations",
+            "scope": "support.type.custom-property.css",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "CSS function calls",
+            "scope": "support.function.font-face.css, support.function.url.css",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "CSS at-rule",
+            "scope": "keyword.control.at-rule",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "CSS vendor prefixes",
+            "scope": "support.type.vendor-prefix.css",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "JavaScript jQuery Dollar",
+            "scope": "variable.other.dollar.only.js",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "JavaScript map key-names",
+            "scope": "meta.object-literal.key.js",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "JSON dictionary key",
+            "scope": "meta.structure.dictionary.key.json string",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "LaTeX environments",
+            "scope": "variable.parameter.function.latex",
+            "foreground": "var(orange)",
+            "font_style": "italic"
+        },
+        {
+            "name": "LaTeX labels, references and citations",
+            "scope": "entity.name.label.latex, constant.other.reference.latex, constant.other.citation.latex",
+            "foreground": "var(violet)",
+            "font_style": "italic"
+        },
+        {
+            "name": "LaTeX numeric literals",
+            "scope": "text.tex.latex constant.numeric",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "LaTeX inline math punctuations",
+            "scope": "string.other.math.latex",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "LaTeX parenthesis",
+            "scope": "constant.character.parenthesis.tex, constant.character.bracket.tex",
+            "foreground": "var(textcolor)"
+        },
+        {
+            "name": "LaTeX brace character",
+            "scope": "constant.character.brace.escape.tex",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "LaTeX whitespace characters",
+            "scope": "constant.character.space.tex, constant.character.escape.tex",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "LaTeX array delimiters",
+            "scope": "constant.character.ampersand.tex, constant.character.newline.latex",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "LaTeX user command declarations",
+            "scope": "support.function.latex entity.name.newcommand",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "#F92672"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "#A6E22E"
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "#967EFB"
+        },
+        {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "#565656"
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "#565656"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "region.redish markup.error, markup.error.sublime_linter",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "region.yellowish markup.warning, markup.warning.sublime_linter",
+            "foreground": "var(orange)"
+        }
+    ]
+}

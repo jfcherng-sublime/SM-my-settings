@@ -1,0 +1,84 @@
+{
+   "rules":
+    [
+        {
+            "scope": "diff.deleted",
+            "background": "hsla(357, 25%, 60%, 0.25)",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.deleted.side-by-side",
+            "background": "hsl(210, 15%, 27%)",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(357, 40%, 60%, 0.45)",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "hsla(180, 25%, 60%, 0.25)",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.side-by-side",
+            "background": "hsl(210, 15%, 27%)",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(180, 40%, 60%, 0.45)",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.fill",
+            "background": "hsl(210, 15%, 27%)",
+        },
+
+        {
+            "scope": "diff.inserted.merge-left",
+            "background": "hsla(180, 25%, 60%, 0.25)",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char.merge-left",
+            "background": "hsla(180, 40%, 60%, 0.30)",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.border.merge-left",
+            "background": "hsla(180, 40%, 60%, 0.50)",
+        },
+        {
+            "scope": "diff.inserted.merge-right",
+            "background": "hsla(60, 25%, 40%, 0.25)",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char.merge-right",
+            "background": "hsla(60, 40%, 60%, 0.30)",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.border.merge-right",
+            "background": "hsla(60, 60%, 60%, 0.50)",
+        },
+        {
+            "scope": "diff.border.merge-conflict",
+            "background": "hsla(357, 75%, 65%, 0.50)",
+        },
+        {
+            "scope": "diff.border.merge-merged",
+            "background": "hsla(180, 10%, 70%, 0.30)",
+        },
+        {
+            "scope": "blame.border",
+            "background": "hsl(210, 13%, 30%)",
+        },
+        {
+            "scope": "blame.age-icon",
+            "foreground": "white",
+        },
+    ]
+}

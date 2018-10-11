@@ -1,0 +1,84 @@
+{
+   "rules":
+    [
+        {
+            "scope": "diff.deleted",
+            "background": "#ee888840",
+            "foreground_adjust": "l(- 10%)"
+        },
+        {
+            "scope": "diff.deleted.side-by-side",
+            "background": "hsl(180, 9%, 95%)",
+            "foreground_adjust": "l(- 10%)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "#ee8888a0",
+            "foreground_adjust": "l(- 15%)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "#88ee8840",
+            "foreground_adjust": "l(- 10%)"
+        },
+        {
+            "scope": "diff.inserted.side-by-side",
+            "background": "hsl(180, 9%, 95%)",
+            "foreground_adjust": "l(- 10%)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "#88ee88a0",
+            "foreground_adjust": "l(- 15%)"
+        },
+        {
+            "scope": "diff.fill",
+            "background": "hsl(180, 9%, 95%)",
+        },
+
+        {
+            "scope": "diff.inserted.merge-left",
+            "background": "#88ee8840",
+            "foreground_adjust": "l(- 10%)"
+        },
+        {
+            "scope": "diff.inserted.char.merge-left",
+            "background": "#88ee88a0",
+            "foreground_adjust": "l(- 15%)"
+        },
+        {
+            "scope": "diff.border.merge-left",
+            "background": "hsl(114, 50%, 75%)",
+        },
+        {
+            "scope": "diff.inserted.merge-right",
+            "background": "hsla(205, 60%, 60%, 0.15)",
+            "foreground_adjust": "l(- 10%)"
+        },
+        {
+            "scope": "diff.inserted.char.merge-right",
+            "background": "hsla(205, 60%, 60%, 0.30)",
+            "foreground_adjust": "l(- 15%)"
+        },
+        {
+            "scope": "diff.border.merge-right",
+            "background": "hsla(205, 60%, 60%, 0.50)",
+        },
+        {
+            "scope": "diff.border.merge-conflict",
+            "background": "hsla(357, 75%, 65%, 0.50)",
+        },
+        {
+            "scope": "diff.border.merge-merged",
+            "background": "hsla(180, 60%, 40%, 0.30)",
+        },
+        {
+            "scope": "blame.border",
+            "background": "hsl(0, 0%, 88%)",
+        },
+        {
+            "scope": "blame.age-icon",
+            "foreground": "#e6861a",
+        },
+    ]
+}
