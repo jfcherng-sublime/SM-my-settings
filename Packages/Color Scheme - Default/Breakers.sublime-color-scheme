@@ -2,12 +2,14 @@
     "url": "https://github.com/jwortmann/brackets-color-scheme",
     "name": "Brackets Light",
     "author": "Janos Wortmann",
+    "modifier": "Jack Cherng <jfcherng@gmail.com>",
     "variables": {
         "textcolor": "#535353",
         "blue": "#446FBD",
         "green": "#6D8600",
         "grey": "#949494",
         "orange": "#E88501",
+        "orange2": "#784604",
         "red": "#DC322F",
         "red2": "#D11E63",
         "violet": "#8757AD"
@@ -16,15 +18,15 @@
         "background": "#F8F8F8",
         "foreground": "var(textcolor)",
         "caret": "#000000",
-        "line_highlight": "#EBEFEF",
+        "line_highlight": "#E0E0E0",
         "misspelling": "var(red)",
         "fold_marker": "#FFFFFF",
         "accent": "var(blue)",
         "gutter_foreground": "var(grey)",
         "selection": "#ABDFFA",
         "inactive_selection": "#D5DEE3",
-        "selection_corner_style": "round",
-        "selection_corner_radius": "2",
+        "selection_corner_style": "square",
+        "selection_corner_radius": "0",
         "find_highlight": "#F7C44E",
         "find_highlight_foreground": "#121212",
         "brackets_options": "underline",
@@ -56,7 +58,7 @@
         {
             "name": "Strings",
             "scope": "string",
-            "foreground": "var(orange)"
+            "foreground": "var(orange2)"
         },
         {
             "name": "Keywords",
@@ -66,7 +68,7 @@
         {
             "name": "Operators",
             "scope": "keyword.operator",
-            "foreground": "var(textcolor)"
+            "foreground": "var(red2)"
         },
         {
             "name": "Data structures, types and other constructs",
@@ -81,12 +83,17 @@
         {
             "name": "Storage modifiers",
             "scope": "storage.modifier",
-            "foreground": "var(blue)"
+            "foreground": "var(red2)"
         },
         {
             "name": "Library and user constructs",
             "scope": "support",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "Library and user constructs",
+            "scope": "support.function",
+            "foreground": "var(violet)"
         },
         {
             "name": "Language-specific variables",
@@ -107,6 +114,11 @@
             "name": "Separators",
             "scope": "punctuation.separator",
             "foreground": "var(textcolor)"
+        },
+        {
+            "name": "Separators accessors",
+            "scope": "punctuation.accessor",
+            "foreground": "var(red2)"
         },
         {
             "name": "Illegal statements",
