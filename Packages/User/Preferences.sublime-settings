@@ -24,5 +24,6 @@
 	"theme_font_options":
 	[
 		"gdi"
-	]
+	],
+	"time_format": "24h"
 }
