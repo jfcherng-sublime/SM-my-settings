@@ -3,6 +3,7 @@
 	"caret_style": "blink",
 	"diff_style": "auto",
 	"draw_white_space": "all",
+	"expand_merge_commits_by_default": false,
 	"font_face": "Ubuntu Mono",
 	"font_options":
 	[
@@ -25,5 +26,6 @@
 	[
 		"gdi"
 	],
-	"time_format": "24h"
+	"time_format": "24h",
+	"translate_tabs_to_spaces": true
 }
