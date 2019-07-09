@@ -4,6 +4,10 @@
         "command": "search", "args": { "query": "file:\"$path\"" }
     },
     {
+        "caption": "Line History",
+        "command": "search", "args": { "query": "file:\"$path\" line:$line-$line" }
+    },
+    {
         "caption": "Blame",
         "command": "blame", "args": { "path": "$path" }
     },
