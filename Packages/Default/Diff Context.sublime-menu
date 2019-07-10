@@ -1,5 +1,11 @@
 [
     {
+        "caption": "Stash File",
+        "command": "git",
+        "args": { "argv": ["stash", "push", "$path"] }
+    },
+    { "caption": "-" },
+    {
         "caption": "File History",
         "command": "search", "args": { "query": "file:\"$path\"" }
     },
