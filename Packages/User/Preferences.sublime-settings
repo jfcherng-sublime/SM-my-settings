@@ -3,7 +3,7 @@
 	"caret_style": "blink",
 	"diff_style": "auto",
 	"draw_white_space": "all",
-	"expand_merge_commits_by_default": false,
+	"expand_merge_commits_by_default": true,
 	"font_face": "Ubuntu Mono",
 	"font_options":
 	[

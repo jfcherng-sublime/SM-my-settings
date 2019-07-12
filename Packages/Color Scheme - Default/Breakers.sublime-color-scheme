@@ -15,12 +15,12 @@
         "violet": "#8757AD"
     },
     "globals": {
-        "background": "#F8F8F8",
+        "background": "#FFFFFF",
         "foreground": "var(textcolor)",
         "caret": "#000000",
         "line_highlight": "color(color(black blend(color(white) 20%)) alpha(50%))",
         "misspelling": "var(red)",
-        "fold_marker": "#FFFFFF",
+        "fold_marker": "#333333",
         "accent": "var(blue)",
         "gutter_foreground": "var(grey)",
         "selection": "#ABDFFA",
