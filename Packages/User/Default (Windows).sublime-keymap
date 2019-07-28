@@ -1,4 +1,5 @@
 [
+    { "keys": ["alt+shift+o", "alt+shift+t"], "command": "open_dir_in_sublime_text", "args": {"dir": "$working_dir"} },
     // movement/select (Home, End)
     { "keys": ["alt+h", "alt+h"],             "command": "move_to", "args": { "extend": false, "to": "bol" } },
     { "keys": ["alt+shift+h", "alt+shift+h"], "command": "move_to", "args": { "extend": true,  "to": "bol" } },

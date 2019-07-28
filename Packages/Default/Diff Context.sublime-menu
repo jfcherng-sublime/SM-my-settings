@@ -2,36 +2,42 @@
     {
         "caption": "Stash File",
         "command": "git",
-        "args": { "argv": ["stash", "push", "$path"] }
+        "args": { "argv": ["stash", "push", "$path"] },
     },
     { "caption": "-" },
     {
         "caption": "File History",
-        "command": "search", "args": { "query": "file:\"$path\"" }
+        "command": "search", "args": { "query": "file:\"$path\"" },
     },
     {
         "caption": "Line History",
-        "command": "search", "args": { "query": "file:\"$path\" line:$line-$line" }
+        "command": "search", "args": { "query": "file:\"$path\" line:$line-$line" },
     },
     {
         "caption": "Blame",
-        "command": "blame", "args": { "path": "$path" }
+        "command": "blame", "args": { "path": "$path" },
+    },
+    { "caption": "-" },
+    {
+        "caption": "Open Repository in Sublime Text",
+        "command": "open_dir_in_sublime_text",
+        "args": { "dir": "$working_dir" },
     },
     { "caption": "-" },
     {
         "caption": "Open in Editor…",
         "command": "open_in_editor",
-        "args": { "path": "$working_dir/$path", "line": "$line", "col": "$col" }
+        "args": { "path": "$working_dir/$path", "line": "$line", "col": "$col" },
     },
     {
         "caption": "Open Containing Folder…",
         "command": "open_dir",
-        "args": { "path": "$working_dir/$path" }
+        "args": { "path": "$working_dir/$path" },
     },
     {
         "caption": "Copy File Path",
         "command": "copy_to_clipboard",
-        "args": { "text": "$path" }
+        "args": { "text": "$path" },
     },
     { "caption": "-" },
     { "command": "copy" },
