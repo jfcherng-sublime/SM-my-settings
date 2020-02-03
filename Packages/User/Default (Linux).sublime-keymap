@@ -36,4 +36,6 @@
     { "keys": ["ctrl+alt+shift+k"], "command": "swap_line_down" },
     // word wrap
     { "keys": ["alt+w"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+    // project
+    { "keys": ["ctrl+alt+p"], "command": "quick_switch_repository" },
 ]
