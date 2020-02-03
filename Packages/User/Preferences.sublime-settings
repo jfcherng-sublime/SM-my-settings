@@ -3,6 +3,7 @@
 	"caret_style": "blink",
 	"diff_style": "auto",
 	"draw_white_space": "all",
+	"draw_unicode_white_space": true,
 	"expand_merge_commits_by_default": true,
 	"font_face": "Ubuntu Mono",
 	"font_options":
@@ -13,6 +14,8 @@
 	],
 	"font_size": 12,
 	"highlight_line": true,
+	"highlight_line_number": true,
+	"highlight_gutter": true,
 	"rulers":
 	[
 		200,
