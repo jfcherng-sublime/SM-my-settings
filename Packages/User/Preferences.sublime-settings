@@ -1,9 +1,10 @@
 {
+	"always_show_commit_graph": false,
 	"caret_extra_width": 2,
 	"caret_style": "blink",
 	"diff_style": "auto",
-	"draw_white_space": "all",
 	"draw_unicode_white_space": true,
+	"draw_white_space": "all",
 	"expand_merge_commits_by_default": true,
 	"font_face": "Ubuntu Mono",
 	"font_options":
@@ -13,9 +14,9 @@
 		"subpixel_antialias"
 	],
 	"font_size": 12,
+	"highlight_gutter": true,
 	"highlight_line": true,
 	"highlight_line_number": true,
-	"highlight_gutter": true,
 	"rulers":
 	[
 		200,

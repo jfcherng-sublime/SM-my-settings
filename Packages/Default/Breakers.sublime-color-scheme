@@ -80,5 +80,9 @@
             "scope": "blame.age-icon",
             "foreground": "#e6861a",
         },
+        {
+            "scope": "source.sublime-merge.preferences.git_binary",
+            "foreground": "#e6861a",
+        },
     ]
 }
