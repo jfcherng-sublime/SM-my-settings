@@ -38,4 +38,9 @@
     { "keys": ["alt+w"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
     // project
     { "keys": ["ctrl+alt+p"], "command": "quick_switch_repository" },
+    // delete
+    { "keys": ["alt+/"],      "command": "left_delete"  },
+    { "keys": ["alt+'"],      "command": "right_delete" },
+    { "keys": ["ctrl+alt+/"], "command": "delete_word", "args": { "forward": false } },
+    { "keys": ["ctrl+alt+'"], "command": "delete_word", "args": { "forward": true  } },
 ]
