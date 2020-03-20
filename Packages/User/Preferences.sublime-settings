@@ -11,7 +11,7 @@
 	[
 		"bold",
 		"gdi",
-		"subpixel_antialias"
+		"subpixel_antialias",
 	],
 	"font_size": 12,
 	"highlight_gutter": true,
@@ -22,14 +22,15 @@
 		200,
 		80,
 		100,
-		120
+		120,
 	],
 	"spell_check": false,
 	"theme": "Merge.sublime-theme",
 	"theme_font_options":
 	[
-		"gdi"
+		"gdi",
 	],
 	"time_format": "24h",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"side_bar_layout": "commit_graph_as_column",
 }
