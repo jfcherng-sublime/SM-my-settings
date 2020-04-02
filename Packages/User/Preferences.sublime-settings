@@ -1,6 +1,9 @@
 {
 	"always_show_commit_graph": false,
+	"block_caret": false,
 	"caret_extra_width": 2,
+	"caret_extra_top": 2,
+	"caret_extra_bottom": 2,
 	"caret_style": "blink",
 	"diff_style": "auto",
 	"draw_unicode_white_space": true,
