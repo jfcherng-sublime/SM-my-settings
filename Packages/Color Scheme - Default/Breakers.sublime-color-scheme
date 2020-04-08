@@ -61,6 +61,11 @@
             "foreground": "var(orange2)"
         },
         {
+            "name": "Links",
+            "scope": "string.other.link, markup.underline.link",
+            "foreground": "var(blue)"
+        },
+        {
             "name": "Keywords",
             "scope": "keyword",
             "foreground": "var(red2)"

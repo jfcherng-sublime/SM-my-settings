@@ -18,12 +18,12 @@
         "command": "blame", "args": { "path": "$path" },
     },
     { "caption": "-" },
+    { "command": "open_context_url" },
     {
         "caption": "Open Repository in Sublime Text",
         "command": "open_dir_in_sublime_text",
         "args": { "dir": "$working_dir" },
     },
-    { "caption": "-" },
     {
         "caption": "Open in Editor…",
         "command": "open_in_editor",
