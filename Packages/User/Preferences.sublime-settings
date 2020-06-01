@@ -36,4 +36,9 @@
 	"time_format": "24h",
 	"translate_tabs_to_spaces": true,
 	"side_bar_layout": "commit_graph_as_column",
+	"hide_menu": false,
+	"hardware_acceleration": "none",
+	"log_control_tree": true,
+	"log_commands": false,
+	"ignore_diff_white_space": false,
 }
