@@ -1,15 +1,18 @@
 {
-	"always_show_commit_graph": false,
+	"always_show_command_status ": false,
+	"auto_hide_menu": false,
 	"block_caret": false,
-	"caret_extra_width": 2,
-	"caret_extra_top": 2,
 	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 2,
 	"caret_style": "blink",
 	"diff_style": "auto",
 	"draw_unicode_white_space": true,
 	"draw_white_space": "all",
 	"expand_merge_commits_by_default": true,
 	"font_face": "Ubuntu Mono",
+	"hardware_acceleration": "none",
+	"ignore_diff_white_space": false,
 	"font_options":
 	[
 		"bold",
@@ -20,6 +23,8 @@
 	"highlight_gutter": true,
 	"highlight_line": true,
 	"highlight_line_number": true,
+	"log_commands": false,
+	"log_control_tree": false,
 	"rulers":
 	[
 		200,
@@ -27,6 +32,7 @@
 		100,
 		120,
 	],
+	"side_bar_layout": "commit_graph_as_column",
 	"spell_check": false,
 	"theme": "Merge.sublime-theme",
 	"theme_font_options":
@@ -35,10 +41,4 @@
 	],
 	"time_format": "24h",
 	"translate_tabs_to_spaces": true,
-	"side_bar_layout": "commit_graph_as_column",
-	"hide_menu": false,
-	"hardware_acceleration": "none",
-	"log_control_tree": true,
-	"log_commands": false,
-	"ignore_diff_white_space": false,
 }
