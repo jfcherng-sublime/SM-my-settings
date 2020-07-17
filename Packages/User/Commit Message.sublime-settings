@@ -2,4 +2,5 @@
 {
     "syntax": "Packages/Git Formats/Git Commit.sublime-syntax",
     "rulers": [80, 100, 120],
+    "dictionary": "Packages/Language - English/en_US-large.dic",
 }
