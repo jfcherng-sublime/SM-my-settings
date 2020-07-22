@@ -41,4 +41,5 @@
 	],
 	"time_format": "24h",
 	"translate_tabs_to_spaces": true,
+	"update_check": false,
 }
