@@ -7,7 +7,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "blink",
 	"diff_style": "auto",
-	"draw_unicode_white_space": true,
+	"draw_unicode_white_space": "all",
 	"draw_white_space": "all",
 	"expand_merge_commits_by_default": true,
 	"font_face": "Ubuntu Mono",
@@ -25,15 +25,7 @@
 	"highlight_line_number": true,
 	"log_commands": false,
 	"log_control_tree": false,
-	"rulers":
-	[
-		200,
-		80,
-		100,
-		120,
-	],
 	"side_bar_layout": "commit_graph_as_column",
-	"spell_check": false,
 	"theme": "Merge.sublime-theme",
 	"theme_font_options":
 	[
