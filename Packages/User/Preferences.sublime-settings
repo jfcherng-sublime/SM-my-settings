@@ -7,7 +7,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "blink",
 	"diff_style": "auto",
-	"draw_unicode_white_space": "all",
+	"draw_unicode_white_space": "punctuation",
 	"draw_white_space": "all",
 	"expand_merge_commits_by_default": true,
 	"font_face": "Ubuntu Mono",
