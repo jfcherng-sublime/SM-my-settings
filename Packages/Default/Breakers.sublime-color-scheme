@@ -1,50 +1,48 @@
 {
-   "rules":
-    [
+    "rules": [
         {
             "scope": "diff.deleted",
             "background": "#ee888840",
-            "foreground_adjust": "l(+ 10%)"
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "scope": "diff.deleted.side-by-side",
             "background": "hsl(180, 9%, 95%)",
-            "foreground_adjust": "l(+ 10%)"
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "scope": "diff.deleted.char",
             "background": "#ff6666a0",
-            "foreground_adjust": "l(- 10%)"
+            "foreground_adjust": "l(- 10%)",
         },
         {
             "scope": "diff.inserted",
             "background": "#88ee8840",
-            "foreground_adjust": "l(+ 10%)"
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "scope": "diff.inserted.side-by-side",
             "background": "hsl(180, 9%, 95%)",
-            "foreground_adjust": "l(+ 10%)"
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "scope": "diff.inserted.char",
             "background": "#66ff66a0",
-            "foreground_adjust": "l(- 10%)"
+            "foreground_adjust": "l(- 10%)",
         },
         {
             "scope": "diff.fill",
             "background": "hsl(180, 9%, 95%)",
         },
-
         {
             "scope": "diff.inserted.merge-left",
             "background": "#88ee8840",
-            "foreground_adjust": "l(+ 10%)"
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "scope": "diff.inserted.char.merge-left",
             "background": "#88ee88a0",
-            "foreground_adjust": "l(- 10%)"
+            "foreground_adjust": "l(- 10%)",
         },
         {
             "scope": "diff.border.merge-left",
@@ -53,12 +51,12 @@
         {
             "scope": "diff.inserted.merge-right",
             "background": "hsla(205, 60%, 60%, 0.15)",
-            "foreground_adjust": "l(+ 10%)"
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "scope": "diff.inserted.char.merge-right",
             "background": "hsla(205, 60%, 60%, 0.30)",
-            "foreground_adjust": "l(- 10%)"
+            "foreground_adjust": "l(- 10%)",
         },
         {
             "scope": "diff.border.merge-right",
@@ -84,5 +82,5 @@
             "scope": "source.sublime-merge.preferences.git_binary",
             "foreground": "#e6861a",
         },
-    ]
+    ],
 }

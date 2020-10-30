@@ -1,0 +1,105 @@
+[
+    {
+        "caption": "-",
+    },
+    {
+        "caption": "Stash File",
+        "command": "git",
+        "args": {
+            "argv": [
+                "stash",
+                "push",
+                "$path",
+            ],
+        },
+    },
+    {
+        "caption": "-",
+    },
+    {
+        "caption": "File History",
+        "command": "search",
+        "args": {
+            "query": "file:\"$path\"",
+        },
+    },
+    {
+        "caption": "Line History",
+        "command": "search",
+        "args": {
+            "query": "file:\"$path\" line:$line-$line",
+        },
+    },
+    {
+        "caption": "Blame",
+        "command": "blame",
+        "args": {
+            "path": "$path",
+        },
+    },
+    {
+        "caption": "-",
+    },
+    {
+        "command": "open_context_url",
+    },
+    {
+        "caption": "Open Repository in Sublime Text",
+        "command": "open_dir_in_sublime_text",
+        "args": {
+            "dir": "$working_dir",
+        },
+    },
+    {
+        "caption": "Open Containing Folder…",
+        "command": "open_dir",
+        "args": {
+            "path": "$working_dir/$path",
+        },
+    },
+    {
+        "caption": "Copy File Path",
+        "command": "copy_to_clipboard",
+        "args": {
+            "text": "$path",
+        },
+    },
+    {
+        "caption": "-",
+    },
+    {
+        "command": "toggle_ignore_diff_whitespace"
+    },
+    {
+        "caption": "Word Wrap",
+        "children": [
+            {
+                "command": "set_word_wrap",
+                "caption": "Auto",
+                "args": {
+                    "word_wrap": "auto",
+                },
+                "checkbox": true,
+            },
+            {
+                "command": "set_word_wrap",
+                "caption": "Enabled",
+                "args": {
+                    "word_wrap": true,
+                },
+                "checkbox": true,
+            },
+            {
+                "command": "set_word_wrap",
+                "caption": "Disabled",
+                "args": {
+                    "word_wrap": false,
+                },
+                "checkbox": true,
+            },
+        ],
+    },
+    {
+        "caption": "-",
+    },
+]
