@@ -5,7 +5,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 2,
-	"caret_style": "blink",
+	"caret_style": "solid",
 	"diff_style": "auto",
 	"draw_unicode_white_space": "punctuation",
 	"draw_white_space": "all",
