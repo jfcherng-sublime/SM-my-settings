@@ -15,9 +15,8 @@
 	"ignore_diff_white_space": false,
 	"font_options":
 	[
-		"bold",
+		// "bold",
 		"gdi",
-		"subpixel_antialias",
 	],
 	"font_size": 12,
 	"highlight_gutter": true,
