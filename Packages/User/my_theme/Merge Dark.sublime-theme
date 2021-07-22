@@ -1,0 +1,9 @@
+{
+	"rules": [
+		// use dark title/menu bar
+		{
+			"class": "title_bar",
+			"style": "dark"
+		}
+	]
+}
